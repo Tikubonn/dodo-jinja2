@@ -1,0 +1,5 @@
+build/*
+dist/*
+doodoo_jinja2.egg-info/*
+*.pyc
+
