@@ -13,10 +13,10 @@ setup(
   author = "tikubonn",
   author_email = "https://twitter.com/tikubonn",
   url = "https://github.com/tikubonn/doodoo-jinja2",
-  license = "MIT",
+  license = "GPLv3",
   packages = find_packages(),
   install_requires = [
-    "doodoo==0.9.0",
+    "doodoo==0.9.1",
     "jinja2==2.10.1",
   ],
   dependency_links = [
@@ -30,6 +30,6 @@ setup(
   classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
   ]
 )
