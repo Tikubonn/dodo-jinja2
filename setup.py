@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
   name = "doodoo-jinja2",
-  version = "1.0.0",
+  version = "1.1.0",
   description = "add jinja2 template engine to doodoo.",
   long_description = long_description,
   long_description_content_type = "text/markdown",
@@ -20,7 +20,7 @@ setup(
     "jinja2==2.10.1",
   ],
   dependency_links = [
-    "git+ssh://git@github.com/tikubonn/doodoo.git@master#egg=doodoo-1.0.0",
+    "git+ssh://git@github.com/tikubonn/doodoo.git@master#egg=doodoo-0.9.1",
   ],
   entry_points = {
     "doodoo_init": [
