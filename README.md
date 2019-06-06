@@ -73,5 +73,5 @@ you can customize this plugin with editing `config` section.
 
 ## License
 
-DooDoo Jinja2 has released under the [GPLv3](LICENSE).  
-DooDoo Jinja2 has required [Jinja2](http://jinja.pocoo.org/), that has released under the [BSD License](LICENSE_JINJA2). please read detail to [LICENSE_JINJA2](LICENSE_JINJA2).  
+DooDoo Jinja2 has released under the [GPLv3](LICENSE.txt).  
+DooDoo Jinja2 has required [Jinja2](http://jinja.pocoo.org/), that has released under the [BSD License](license/LICENSE_JINJA2.txt). please read detail to [license/LICENSE_JINJA2.txt](license/LICENSE_JINJA2.txt).  
