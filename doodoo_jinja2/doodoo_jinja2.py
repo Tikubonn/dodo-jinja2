@@ -3,6 +3,7 @@ from doodoo.trait import Template
 from doodoo.trait import Configurable
 from doodoo.registry import register_template
 from jinja2 import Template as JinjaTemplate
+import os 
 
 class Jinja2Wrapper (Template, Configurable):
   
@@ -25,6 +26,10 @@ class Jinja2Wrapper (Template, Configurable):
       template = JinjaTemplate(streamin.read())
       stream.write(template.render(**keywords))
 
+  # override
+  def get_update_time (self):
+    return os.stat(self.path).st_mtime
+  
 def init (request):
   
   """
