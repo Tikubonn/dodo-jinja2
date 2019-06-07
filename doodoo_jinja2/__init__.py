@@ -1,1 +1,1 @@
-from .doodoo_jinja2 import init 
+from .doodoo_jinja2 import init
