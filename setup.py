@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name="doodoo-jinja2",
-    version="1.1.0",
+    version="0.9.1",
     description="add jinja2 template engine to doodoo.",
     long_description=long_description,
     long_description_content_type="text/markdown",
