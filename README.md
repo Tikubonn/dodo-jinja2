@@ -10,7 +10,7 @@ Jinja2 is popular template engine in Python packages.
 
 ## Requirement
 
-* [doodoo==0.9.1](https://github.com/tikubonn/doodoo)
+* [doodoo==0.9.2](https://github.com/tikubonn/doodoo)
 * [jinja2==2.10.1](http://jinja.pocoo.org/)
 
 ## Installation
