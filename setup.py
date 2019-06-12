@@ -5,26 +5,26 @@ with open("README.md", "r", encoding="utf-8") as readme:
     long_description = readme.read()
 
 setup(
-    name="doodoo-jinja2",
+    name="dodo-jinja2",
     version="0.9.2",
-    description="add jinja2 template engine to doodoo.",
+    description="add jinja2 template engine to dodo.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="tikubonn",
     author_email="https://twitter.com/tikubonn",
-    url="https://github.com/tikubonn/doodoo-jinja2",
+    url="https://github.com/tikubonn/dodo-jinja2",
     license="GPLv3",
     packages=find_packages(),
     install_requires=[
-        "doodoo==0.9.2",
+        "dodo==0.9.2",
         "jinja2==2.10.1",
     ],
     dependency_links=[
-        "git+ssh://git@github.com/tikubonn/doodoo.git@master#egg=doodoo-0.9.2",
+        "git+ssh://git@github.com/tikubonn/dodo.git@master#egg=dodo-0.9.2",
     ],
     entry_points={
-        "doodoo_init": [
-            "doodoo_jinja2 = doodoo_jinja2:init",
+        "dodo_init": [
+            "dodo_jinja2 = dodo_jinja2:init",
         ]
     },
     classifiers=[
