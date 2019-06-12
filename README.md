@@ -74,5 +74,5 @@ you can customize this plugin with editing `config` section.
 ## License
 
 DoDo Jinja2 has released under the [GPLv3](LICENSE.txt).  
-DoDo Jinja2 has required [DoDo](https://github.com/tikubonn/dodo), that has released under the [GPLv3](license/LICENSE_DODO.txt). please read detail to [license/LICENSE_DODO.txt](license/LICENSE_DODO.txt).
+DoDo Jinja2 has required [DoDo](https://github.com/tikubonn/dodo), that has released under the [GPLv3](license/LICENSE_DODO.txt). please read detail to [license/LICENSE_DODO.txt](license/LICENSE_DODO.txt).  
 DoDo Jinja2 has required [Jinja2](http://jinja.pocoo.org/), that has released under the [BSD License](license/LICENSE_JINJA2.txt). please read detail to [license/LICENSE_JINJA2.txt](license/LICENSE_JINJA2.txt).  
