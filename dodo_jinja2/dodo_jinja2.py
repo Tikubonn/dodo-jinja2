@@ -1,6 +1,6 @@
 
 from dodo.trait import Template
-from dodo.trait import Configurable
+from dodo.trait import ConfigHolder
 from dodo.registry import register_template
 from jinja2 import Template as JinjaTemplate
 from pathlib import Path
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup as Bs
 import os
 
 
-class Jinja2Wrapper (Template, Configurable):
+class Jinja2Wrapper (Template, ConfigHolder):
 
     """
     wrapper class of Jinja2Wrapper for dodo.
@@ -16,7 +16,7 @@ class Jinja2Wrapper (Template, Configurable):
 
     def __init__(self, config=dict()):
         Template.__init__(self)
-        Configurable.__init__(self, config=config)
+        ConfigHolder.__init__(self, config=config)
         self.path = None
         self.rootdir = None
 
@@ -32,10 +32,11 @@ class Jinja2Wrapper (Template, Configurable):
             return address
         if address.startswith("/"):
             return address
-        return Path("/").joinpath(
-            self.path.parent.relative_to(
-                self.rootdir
-            ).joinpath(address))
+#        return Path("/").joinpath(
+#            self.path.parent.relative_to(
+#                self.rootdir
+#            ).joinpath(address))
+        return Path("/").joinpath(address)
 
     def fix_all_path(self, bs):
         for element in bs.find_all(href=True):

@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name="dodo-jinja2",
-    version="0.9.2",
+    version="0.9.3",
     description="add jinja2 template engine to dodo.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -16,11 +16,11 @@ setup(
     license="GPLv3",
     packages=find_packages(),
     install_requires=[
-        "dodo==0.9.2",
+        "dodo==0.9.3",
         "jinja2==2.10.1",
     ],
     dependency_links=[
-        "git+ssh://git@github.com/tikubonn/dodo.git@master#egg=dodo-0.9.2",
+        "git+ssh://git@github.com/tikubonn/dodo.git@master#egg=dodo-0.9.3",
     ],
     entry_points={
         "dodo_init": [
