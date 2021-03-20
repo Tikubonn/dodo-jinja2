@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "dodo==0.9.3",
-        "jinja2==2.10.1",
+        "jinja2==2.11.3",
     ],
     dependency_links=[
         "git+ssh://git@github.com/tikubonn/dodo.git@master#egg=dodo-0.9.3",
